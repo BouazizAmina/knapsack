@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.company.Controller"
+            prefHeight="600.0" prefWidth="600.0"
+            stylesheets="@style2.css">
+    <children>
+        <Label fx:id="title1" layoutX="120.0" layoutY="19.0" text="Bienvenue à Knapsack" textFill="#FA003F"/>
+        <Label fx:id="title3" layoutX="30.0" layoutY="150.0" text="Remplir Votre Sac à Dos" textFill="#047c92"/>
+        <Label fx:id="title2" layoutX="400.0" layoutY="120.0" text="La liste de vos objets" textFill="#047c92"/>
+
+        <Label layoutX="30.0" layoutY="200.0" text="Capacité du sac à dos  " textFill="#047c92"/>
+        <TextField fx:id="capaciteSac" layoutX="196.0" layoutY="200.0" />
+
+        <Label layoutX="30.0" layoutY="250.0" text="Nombre d'objets  " textFill="#047c92"/>
+        <TextField fx:id="nbObjets" layoutX="196.0" layoutY="250.0" />
+
+        <Label layoutX="30.0" layoutY="275.0" text="-------------------------------------------------------------------------" textFill="#047c92"/>
+
+        <Label layoutX="30.0" layoutY="300.0" text="Poids d'objet  " textFill="#047c92"/>
+        <TextField fx:id="poidsObjet" layoutX="196.0" layoutY="300.0" />
+
+        <Label layoutX="30.0" layoutY="350.0" text="Gain d'objet   " textFill="#047c92"/>
+        <TextField fx:id="gainObjet" layoutX="196.0" layoutY="350.0" />
+
+        <Button fx:id="addObjet_btn" layoutX="30.0" layoutY="400.0" mnemonicParsing="false" onAction="#setObjet"
+                text="Ajouter Objet" textFill="WHITE"></Button>
+
+        <VBox layoutX="380.0" layoutY="141.0" prefHeight="300.0" prefWidth="200.0">
+            <children>
+                <ListView fx:id="listObjets" prefHeight="297.0" prefWidth="276.0" />
+            </children>
+        </VBox>
+
+        <Button fx:id="creerSolution" layoutX="440.0" layoutY="450.0" mnemonicParsing="false" textFill="WHITE"
+                onAction="#creerSol" text="Passer à la solution" ></Button>
+
+        <Label fx:id="err_msg" layoutX="32.0" layoutY="430.0" textFill="#fa0404"/>
+    </children>
+</AnchorPane>

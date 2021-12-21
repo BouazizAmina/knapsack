@@ -1,0 +1,23 @@
+#title1{
+    -fx-font-weight: bold;
+    -fx-font-size: 35;
+}
+#title3{
+    -fx-font-weight: bold;
+    -fx-font-size: 25;
+}
+#title2{
+    -fx-font-size: 17;
+    -fx-font-weight: bold;
+}
+.label{
+    -fx-font-family: Candara;
+    -fx-font-size: 17;
+}
+.button{
+    -fx-background-color: #047c92;
+    -fx-font-size: 15;
+}
+#err_msg{
+    -fx-font-size: 12;
+}

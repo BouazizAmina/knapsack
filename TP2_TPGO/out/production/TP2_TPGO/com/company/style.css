@@ -1,0 +1,14 @@
+.root{
+    -fx-background-image:url('firstPage.jpg');
+    -fx-background-size:cover;
+}
+.label{
+    -fx-font-weight: bold;
+    -fx-font-size: 50;
+    -fx-font-family: Candara;
+}
+.button{
+    -fx-background-color: FA003F;
+    -fx-text-fill: fff;
+    -fx-font-size: 20;
+}
