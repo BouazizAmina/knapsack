@@ -1,8 +1,0 @@
-
-@
-java:S1197"*Move the array designators [] to the type.(Ÿ„ì†
-o
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡åÑÒ
-ƒ
-java:S1319	"hThe type of "elements" should be an interface such as "List" rather than the implementation "ArrayList".(œîÚµÿÿÿÿÿ
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş›€şÿÿÿÿ
